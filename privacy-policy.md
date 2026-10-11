@@ -1,51 +1,63 @@
 # Privacy Policy
 
 **Survival Australia**
-*Last updated: March 27, 2026*
+*Last updated: 11 October 2026*
 
-## Overview
+Survival Australia is published by AppZ3. This policy explains what the app does with your information. In short: there is no account, no advertising and no analytics, and what you save stays on your phone. When you are online, some features ask public services for information about a place, and that request includes the area involved.
 
-Survival Australia is developed by AppZ. This privacy policy explains how the app handles your information.
+## What stays on your phone
 
-## Data Collection
+These are stored only on your device and are never sent to us:
 
-Survival Australia does **not** collect, store, or transmit any personal data to external servers.
+- Your medical profile and emergency contacts
+- Favourites, saved places, recorded tracks and search history
+- Downloaded maps, guides and the knowledge base
+- Your settings
 
-### Location Data
+We do not run any server that receives your data, and we cannot see any of it. Uninstalling the app deletes it.
 
-The app requests access to your device's location to provide the following features:
+## Location
 
-- Display your position on the map
-- Navigation and route guidance
-- Nearby campsite and point-of-interest search
-- Safety timer and emergency features
+The app uses your location to show where you are on the map, to guide you along a route, to find nearby campsites and points of interest, and for the safety timer.
 
-Your location data is processed **entirely on your device** and is never sent to external servers or third parties.
+If you record a track or start the safety timer, the app can keep using your location while it is in the background, and Android shows a notification while it does. You can stop either at any time.
 
-## Data Storage
+Location is provided by Android and Google Play services. Google's handling of location data is covered by [Google's Privacy Policy](https://policies.google.com/privacy).
 
-All app data (saved preferences, cached map data) is stored locally on your device. No accounts or sign-ups are required.
+## Features that use the internet
 
-## In-App Purchases
+When you are online, the features below send a request to a public service. The request includes the area you are looking at, travelling to or searching for. It does not include your name, contacts or medical profile.
 
-Survival Australia offers optional in-app purchases (such as a Pro upgrade) via Google Play Billing. All payment transactions are handled entirely by Google Play. We do not collect, store, or process any payment or financial information.
+| Feature | Service |
+|---|---|
+| Map imagery | OpenStreetMap, OpenTopoMap, CyclOSM, Waymarked Trails, Esri |
+| Directions | OSRM (project-osrm.org) |
+| Place search | Nominatim (OpenStreetMap) |
+| Live nearby places | Overpass API (OpenStreetMap data) |
+| Walking trails | Waymarked Trails |
+| Trail elevation | Open-Meteo |
+| Translating an article | MyMemory: the article text is sent to be translated |
 
-## Third-Party Services
+Each service has its own privacy policy. These features do not work offline; the downloaded maps, guides and knowledge base do.
 
-The app uses **OpenStreetMap** tile servers to display map imagery. These requests are made directly from your device and may include your general map viewport area, but no personal information is transmitted.
+Some screens offer links that open another app or website, such as Google Maps or a booking site. What happens there is covered by that site's own policy.
 
-In-app purchases are processed through **Google Play Billing**. Please refer to [Google's Privacy Policy](https://policies.google.com/privacy) for information on how Google handles payment data.
+## Safety timer messages
 
-## Children's Privacy
+If the safety timer runs out, the app sends an SMS from your phone to the contact you chose, containing your location, and repeats every 15 minutes while you are overdue. It is sent by your phone and your mobile carrier, not through us. Normal SMS charges may apply.
 
-Survival Australia does not knowingly collect any personal information from children.
+## Purchases
 
-## Changes to This Policy
+If you buy the optional Pro upgrade, the payment is handled entirely by Google Play. We never see your payment details. See [Google's Privacy Policy](https://policies.google.com/privacy).
 
-We may update this privacy policy from time to time. Any changes will be posted on this page with an updated revision date.
+## Children
+
+The app does not knowingly collect personal information from anyone, including children.
+
+## Changes
+
+If this policy changes, the new version will be posted here with a new date.
 
 ## Contact
 
-If you have any questions about this privacy policy, please contact us at:
-
-**GitHub:** [github.com/AppZ3](https://github.com/AppZ3)
+Questions about this policy: [github.com/AppZ3](https://github.com/AppZ3)
